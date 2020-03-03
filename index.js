@@ -36,7 +36,7 @@ app.get('/conversation/:text*?', (req, res) => {
         sessionId: sessionId,
         input: {
             'message_type': 'text',
-            'text': 'consulta saldo'
+            'text': text
         }
     })
         .then(res => {
